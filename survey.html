@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+  <head><h1 id="title">Survey Form</h1>
+  <link  rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <style>
+    html{
+        box-sizing: border-box;
+    }
+
+
+    body{
+        background-color: lightblue;
+    }
+
+    #title{
+        font-family:sans-serif;
+        text-align: center;
+    }
+
+    .body{
+        background-color: white;
+        font-family: sans-serif;
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 0%;
+        margin-right: 5%; ;
+    }
+
+
+      
+    input{
+      text-align: center;
+    }
+
+</style>
+  <div class="body">
+<p id= "description">Let us know how we can improve freeCodeCamp:</p>
+<form id="survey-form">
+  <label id="name-label">Name 
+    <input placeholder= "Enter your name"type="text" id="name"required><br>
+    </label>
+<label id="email-label" >Email 
+  <input type="email" id="email" placeholder="Enter your email" required/><br>
+  </label>
+<label id="number-label">Age
+  <input id="age" placeholder="00" type="number" min="0" max="100"/><br>
+  <p>Which option currently describes your current role? <select id="dropdown">
+    <option value="Student">Student</option>
+  <option value="Employed">Employed</option>
+  </select></p>
+  </label><br>
+  <label>How likely is that you would recommend freeCodeCamp to a friend? <br>
+    <input type="radio" name="end" value="1"/>Definitely<br>
+    <input type="radio" name="end" value="1"/>Maybe<br>
+    <input type="radio" name="end" value="1"/>Not sure<br>
+</label>
+
+<label >What do you like most in FCC?</label>       
+    <select name="like">
+        <option>Select an option</option>
+        <option>The challenges</option>
+        <option>It's self paced</option>
+        <option>It is free</option>
+    </select>
+    <br><br>
+    <label>Things that should be improved in the future?</label><br>
+    <input type="radio" name="gender" value="Male">Front-End Development<br>
+    <input type="radio" name="gender" value="Female">Back-End Development
+    <br><br>
+    
+</div>
+    
