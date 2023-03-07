@@ -3,22 +3,22 @@ let marks = prompt("Enter Marks");
 alert(marks);
 if (x > 0 && x < 101)
 {
-    if(x > 70)
+    if(x > 80)
     {
         alert("A");
         console.log("Value when A");
     }
-    else if(x > 60 )
+    else if(x < 70 )
     {
         alert("B"); 
 
     }
-    else if(x < 50)
+    else if(x < 60)
     {
         alert("C"); 
 
     }
-    else if(x < 40)
+    else if(x < 50)
     {
         alert("D"); 
 
